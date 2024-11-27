@@ -16,6 +16,7 @@ editor.fontsize = 16
 -- menu-keybindings
 keymap[ID.EXIT] = "Ctrl-Shift-Q"
 keymap[ID.CLOSE] = "Ctrl-Q"
+keymap[ID.GOTODEFINITION] = "Ctrl-D"
 
 -- editor-keybindings
 editor.keymap[#editor.keymap + 1] = {('W'):byte(), wxstc.wxSTC_SCMOD_CTRL, wxstc.wxSTC_CMD_HOME}
@@ -24,6 +25,7 @@ editor.keymap[#editor.keymap + 1] = {wxstc.wxSTC_KEY_UP, wxstc.wxSTC_SCMOD_CTRL,
 editor.keymap[#editor.keymap + 1] = {wxstc.wxSTC_KEY_DOWN, wxstc.wxSTC_SCMOD_CTRL, wxstc.wxSTC_CMD_DOCUMENTEND}
 editor.keymap[#editor.keymap + 1] = {wxstc.wxSTC_KEY_UP, wxstc.wxSTC_SCMOD_ALT, wxstc.wxSTC_CMD_PARAUP}
 editor.keymap[#editor.keymap + 1] = {wxstc.wxSTC_KEY_DOWN, wxstc.wxSTC_SCMOD_ALT, wxstc.wxSTC_CMD_PARADOWN}
+
 
 
 -- style-attributes
