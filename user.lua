@@ -4,6 +4,8 @@
 
 
 -- [editor-preferences](https://studio.zerobrane.com/doc-editor-preferences)
+
+-- general
 editor.tabwidth = 1
 editor.fold = false
 editor.fontname = "Picotron"
@@ -21,9 +23,7 @@ keymap[ID.VIEWOUTPUT] = "Alt-4"           -- open runtime-console-view
 keymap[ID.VIEWCALLSTACK] = "Alt-5"        -- open callstack
 keymap[ID.AUTOCOMPLETE] = "Ctrl-SPACE"    -- open suggestions for autocompletion
 
-
 -- [editor-keybindings](https://studio.zerobrane.com/doc-editor-keyboard-shortcuts)
-
 --[[--
 documentation for changing the bindings:
 - [how-to](https://studio.zerobrane.com/doc-editor-preferences#keyboard-shortcuts)
